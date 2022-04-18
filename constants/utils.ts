@@ -5,7 +5,8 @@ import {
 } from "react-icons/md";
 import { SiPostman } from "react-icons/si";
 import { AiOutlineDatabase } from "react-icons/ai";
-import { GiBookshelf } from "react-icons/gi";
+import { GiBookmarklet } from "react-icons/gi";
+import { BsCircleFill } from "react-icons/bs";
 import { IconNameType } from "../constants/types";
 
 const iconsMap = {
@@ -14,7 +15,8 @@ const iconsMap = {
   MdOutlineCleaningServices,
   SiPostman,
   AiOutlineDatabase,
-  GiBookshelf,
+  GiBookmarklet,
+  BsCircleFill,
 };
 
 export const getIcon = (iconName: IconNameType) => {
