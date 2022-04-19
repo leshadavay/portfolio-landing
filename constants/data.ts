@@ -1,4 +1,4 @@
-import { ServiceType, SkillType } from "./types";
+import { ProjectType, ServiceType, SkillType } from "./types";
 
 export const services: ServiceType[] = [
   {
@@ -55,4 +55,70 @@ export const framewords: SkillType[] = [
   { name: "Node.js", level: "80%", iconName: "BsCircleFill" },
   { name: "React.js", level: "85%", iconName: "BsCircleFill" },
   { name: "Codeigniter", level: "90%", iconName: "BsCircleFill" },
+];
+
+export const projects: ProjectType[] = [
+  {
+    name: "한글 공부",
+    description: "Learn korean alphabets in fast & efficient way",
+    image_path: "/assets/youtube.png",
+    deployed_url: "",
+    github_url: "",
+    category: ["html/css/js"],
+    key_techs: ["spa", "javascript", "pwa", "bootstrap", "jquery"],
+  },
+  {
+    name: "Hotel booking",
+    description: "Sample of hotel rooms booking system",
+    image_path: "/assets/youtube.png",
+    deployed_url: "",
+    github_url: "",
+    category: ["next.js", "mongo"],
+    key_techs: ["next.js", "bootstrap", "mongo", "stripe"],
+  },
+  {
+    name: "Landing Website",
+    description: "Sample of landing page",
+    image_path: "/assets/youtube.png",
+    deployed_url: "",
+    github_url: "",
+    category: ["next.js"],
+    key_techs: ["react.js", "bootstrap"],
+  },
+  {
+    name: "한글 공부",
+    description: "Learn korean alphabets in fast & efficient way",
+    image_path: "/assets/youtube.png",
+    deployed_url: "",
+    github_url: "",
+    category: ["next.js"],
+    key_techs: ["react.js", "bootstrap"],
+  },
+  {
+    name: "Hotel booking",
+    description: "Sample of hotel rooms booking system",
+    image_path: "/assets/youtube.png",
+    deployed_url: "",
+    github_url: "",
+    category: ["next.js"],
+    key_techs: ["react.js", "bootstrap"],
+  },
+  {
+    name: "Landing Website",
+    description: "Sample of landing page",
+    image_path: "/assets/youtube.png",
+    deployed_url: "",
+    github_url: "",
+    category: ["next.js"],
+    key_techs: ["react.js", "bootstrap"],
+  },
+];
+
+export const defaultCategory = "all";
+export const allCategories = [
+  defaultCategory,
+  "react.js",
+  "next.js",
+  "html/css/js",
+  "mongo",
 ];

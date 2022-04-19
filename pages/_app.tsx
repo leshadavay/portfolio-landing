@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
         <div className="h-screen col-span-12 overflow-hidden shadow-custom-light dark:shadow-custom-dark text-center bg-slate-700 rounded-2xl left-bar dark:bg-mydark md:col-span-4 lg:col-span-3 ">
           <Leftbar />
         </div>
-        <div className="flex flex-col col-span-12 overflow-hidden bg-white dark:bg-mydark-200 rounded-2xl right-bar md:col-span-8 lg:col-span-9">
+        <div className="flex flex-col col-span-12 overflow-hidden shadow-custom-light dark:shadow-custom-dark bg-white dark:bg-mydark-200 rounded-2xl right-bar md:col-span-8 lg:col-span-9">
           <Rightbar />
           <Component {...pageProps} />
         </div>

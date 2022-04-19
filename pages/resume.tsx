@@ -3,7 +3,7 @@ import Skill from "../components/Skill";
 import { framewords, languages } from "../constants/data";
 import { SkillType } from "../constants/types";
 
-export default function resume() {
+export default function Resume() {
   return (
     <div className="p-4">
       <div className="grid gap-6 md:grid-cols-2">
